@@ -1,0 +1,11 @@
+.github/
+src/
+
+.eslintrc.js
+.prettierrc.js
+.travis.yml
+npm-scripts.js
+tsconfig.json
+
+*.tgz
+*.tsbuildinfo
