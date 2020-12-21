@@ -27,6 +27,7 @@
     "coverage": "node npm-scripts.js coverage",
     "format": "prettier --write './*.{js,json}' '{src,test}/**/*.{js,json,ts}'",
     "lint": "node npm-scripts.js lint",
+    "prepare": "npm run build",
     "rebuild": "npm run typescript:rebuild",
     "test": "node npm-scripts.js test",
     "typescript:build": "node npm-scripts.js typescript:build",
