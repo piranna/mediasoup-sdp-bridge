@@ -24,13 +24,13 @@
     "build": "npm run typescript:build",
     "build:watch": "npm run typescript:watch",
     "clean": "npm run typescript:clean",
-    "rebuild": "npm run typescript:rebuild",
+    "coverage": "node npm-scripts.js coverage",
     "format": "prettier --write './*.{js,json}' '{src,test}/**/*.{js,json,ts}'",
-    "typescript:build": "node npm-scripts.js typescript:build",
-    "typescript:watch": "node npm-scripts.js typescript:watch",
     "lint": "node npm-scripts.js lint",
+    "rebuild": "npm run typescript:rebuild",
     "test": "node npm-scripts.js test",
-    "coverage": "node npm-scripts.js coverage"
+    "typescript:build": "node npm-scripts.js typescript:build",
+    "typescript:watch": "node npm-scripts.js typescript:watch"
   },
   "jest": {
     "verbose": true,
